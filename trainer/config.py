@@ -13,7 +13,6 @@ parser.add_argument('--node_num', type=int, default=1809, help='dim of input fea
 
 
 # 2.model
-parser.add_argument('--model', type=str, default='DyTed', help='model name')
 parser.add_argument('--heads', type=int, default=2, help='attention heads.')
 
 parser.add_argument('--static_cov', type=int, default=2, help='layers of static gcn cov.')
